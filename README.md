@@ -24,7 +24,7 @@ The latest release is 0.1.0 and can be found in [Maven Central](https://repo1.ma
 
 Pax-Keycloak provides features to easily integrate in Apache Karaf.
 ```
-> repo-add mvn:org.ops4j.pax.keycloak/pax-keycloak-features/1.0.0-SNAPSHOT/xml/features
+> repo-add mvn:org.ops4j.pax.keycloak/pax-keycloak-features/0.3.0-SNAPSHOT/xml/features
 > feature:install pax-keycloak
 ```
 

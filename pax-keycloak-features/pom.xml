@@ -42,23 +42,23 @@
             <plugin>
                 <groupId>org.apache.karaf.tooling</groupId>
                 <artifactId>karaf-maven-plugin</artifactId>
-                <goals>
-                    <goal>verify</goal>
-                </goals>
-                <configuration>
-                    <descriptors>
-                        <descriptor>file://${basedir}/target/feature/feature.xml</descriptor>
-                        <descriptor>mvn:io.hawt/hawtio-karaf/${dependency.hawtio.version}/xml/features</descriptor>
-                        <descriptor>mvn:org.apache.karaf.features/framework/${dependency.karaf.version}/xml/features</descriptor>
-                        <descriptor>mvn:org.apache.karaf.features/standard/${dependency.karaf.version}/xml/features</descriptor>
-                    </descriptors>
-                    <framework>framework,aries-blueprint</framework>
-                    <features>
-                        <!-- tomcat feature validates, but only on karaf > 4.2.0.M1
-                             because it requires pax-web 6.1 -->
-                        <feature>!pax-keycloak-tomcat,pax-keycloak*</feature>
-                    </features>
-                </configuration>
+                <!--<goals>-->
+                    <!--<goal>verify</goal>-->
+                <!--</goals>-->
+                <!--<configuration>-->
+                    <!--<descriptors>-->
+                        <!--<descriptor>file://${basedir}/target/feature/feature.xml</descriptor>-->
+                        <!--<descriptor>mvn:io.hawt/hawtio-karaf/${dependency.hawtio.version}/xml/features</descriptor>-->
+                        <!--<descriptor>mvn:org.apache.karaf.features/framework/${dependency.karaf.version}/xml/features</descriptor>-->
+                        <!--<descriptor>mvn:org.apache.karaf.features/standard/${dependency.karaf.version}/xml/features</descriptor>-->
+                    <!--</descriptors>-->
+                    <!--<framework>framework,aries-blueprint</framework>-->
+                    <!--<features>-->
+                        <!--&lt;!&ndash; tomcat feature validates, but only on karaf > 4.2.0.M1-->
+                             <!--because it requires pax-web 6.1 &ndash;&gt;-->
+                        <!--<feature>!pax-keycloak-tomcat,pax-keycloak*</feature>-->
+                    <!--</features>-->
+                <!--</configuration>-->
             </plugin>
        </plugins>
     </build>

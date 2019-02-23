@@ -42,7 +42,7 @@
         <maven.compiler.target>1.8</maven.compiler.target>
         <maven.compiler.source>1.8</maven.compiler.source>
 
-        <dependency.karaf.version>4.1.5</dependency.karaf.version>
+        <dependency.karaf.version>4.2.2</dependency.karaf.version>
         <dependency.keycloak.version>3.4.1.Final</dependency.keycloak.version>
         <dependency.bouncycastle.version>1.56</dependency.bouncycastle.version>
         <dependency.jackson.version>2.7.0</dependency.jackson.version>
@@ -50,7 +50,7 @@
         <dependency.http.client.version>4.5.4</dependency.http.client.version>
         <dependency.http.core.version>4.4.8</dependency.http.core.version>
         <dependency.tipi.tomcat.version>8.5.20.1</dependency.tipi.tomcat.version>
-        <dependency.paxweb.version>7.1.0-SNAPSHOT</dependency.paxweb.version>
+        <dependency.paxweb.version>7.2.0</dependency.paxweb.version>
 
     </properties>
 
