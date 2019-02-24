@@ -42,7 +42,7 @@
         <maven.compiler.target>1.8</maven.compiler.target>
         <maven.compiler.source>1.8</maven.compiler.source>
 
-        <dependency.karaf.version>4.2.2</dependency.karaf.version>
+        <dependency.karaf.version>4.1.7</dependency.karaf.version>
         <dependency.keycloak.version>3.4.1.Final</dependency.keycloak.version>
         <dependency.bouncycastle.version>1.56</dependency.bouncycastle.version>
         <dependency.jackson.version>2.7.0</dependency.jackson.version>
@@ -238,6 +238,7 @@
         <module>pax-keycloak-jaas</module>
         <module>pax-keycloak-hawtio</module>
         <module>pax-keycloak-features</module>
+        <module>pax-keycloak-camel</module>
     </modules>
 
 </project>
